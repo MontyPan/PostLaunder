@@ -16,16 +16,9 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>us.dontcareabout</groupId>
-			<artifactId>gf</artifactId>
-			<version>0.0.2.1</version>
+			<artifactId>google-sheet-toolkit</artifactId>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 	
