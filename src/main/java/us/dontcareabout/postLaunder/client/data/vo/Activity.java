@@ -1,6 +1,6 @@
 package us.dontcareabout.postLaunder.client.data.vo;
 
-import java.util.Date;
+import com.sencha.gxt.core.client.util.DateWrapper;
 
 import us.dontcareabout.gwt.client.google.SheetEntry;
 
@@ -11,8 +11,8 @@ public final class Activity extends SheetEntry {
 		return stringField("id");
 	}
 
-	public Date getDate() {
-		return dateField("日期");
+	public DateWrapper getDate() {
+		return new DateWrapper(dateField("日期"));
 	}
 
 	public Integer getAmount() {
